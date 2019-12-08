@@ -19,6 +19,9 @@ h1, p {
     width: 1440px;
     margin: 0 auto;
 }
+a {
+    text-decoration: none;
+}
 /* nav bar */
 nav {
     width: 980px;
@@ -189,4 +192,43 @@ main > ul {
 }
 main > ul > li img {
     max-width: 357px;
+}
+/* footer */
+#footer-container {
+    font-size: 0.8334em;
+    color: rgb(110, 110, 110);
+    font: normal normal normal 12px/18px 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 2em 0 2.6em;
+}
+#footer-container a {
+    color: rgb(0, 136, 204);
+}
+#shop-details {
+    float: left;
+}
+#links {
+    float: right;
+}
+#links li {
+    padding-left: 0.6em;
+    margin-right: 0.6em;
+    border-left: 1px solid rgb(204, 204, 204);
+}
+#links > ul > li:first-child{
+    border-left-style: none;
+}
+#terms-privacy {
+    clear: both;
+    margin-top: 30px;
+}
+#terms-privacy li {
+    padding-left: 0.6em;
+    margin-right: 0.6em;
+    border-left: 1px solid rgb(204, 204, 204);
+}
+#terms-privacy > ul > li:first-child{
+    border-left-style: none;
+    padding-left: 0;
 }
