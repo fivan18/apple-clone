@@ -184,4 +184,9 @@ h1, #description,#video {
     margin-right: auto;
 }
 /* main */
-
+main > ul {
+    margin-top: 3px;
+}
+main > ul > li img {
+    max-width: 357px;
+}
