@@ -10,7 +10,15 @@ ul {
 li{
     display: inline-block;
 }
+h1, p {
+    margin: 0;
+    padding: 0;
+}
 
+#hole-container {
+    width: 1440px;
+    margin: 0 auto;
+}
 /* nav bar */
 nav {
     width: 980px;
@@ -23,6 +31,9 @@ nav {
       #848484 100%
     );
     border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+    top: 90px;
 }
 .icons {
     background-color: transparent;
@@ -138,4 +149,37 @@ nav li {
     border: 0px none white;
     padding: 2px 18px 1px 22px;
     color: white;
+}
+/* header */
+header{
+    width: 1440px;
+    height: 657.5px;
+    background-color: transparent;
+    background-image: url('https://archive.md/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg');
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    height: 104px;
+    width: 980px;
+    margin-top: 110px;
+}
+#description {
+    height: 82px;
+    width: 980px;
+    margin-top: -10px;
+}
+#video {
+    height: 64px;
+    width: 980px;
+    margin-top: 30px;
+}
+#video p{
+    height: 32px;
+    overflow: hidden;
+}
+
+h1, #description,#video {
+    margin-left: auto;
+    margin-right: auto;
 }
