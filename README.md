@@ -2,7 +2,7 @@
 
 > A clone of an old [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) page.
 
-![screenshot](apple.PNG)
+![screenshot](images/apple.PNG)
 
 This project consisted of building the [Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) webpage using images as a background and adding gradients to the nav bar. 
 
